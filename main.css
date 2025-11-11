@@ -108,6 +108,12 @@ main section{ height: 200px; display:flex; align-items:center; justify-content:c
   width: 200px;
 }
 
+.float-right {
+  float: right;
+  margin: 0 0 10px 20px;
+  width: 200px;
+}
+
 /* ===== Back-to-top (no reserva espacio) ===== */
 .back-to-top-fixed{
   position: fixed;
