@@ -104,14 +104,18 @@ main section{ height: 200px; display:flex; align-items:center; justify-content:c
 
 .float-left {
   float: left;
-  margin: 0 20px 10px 0;
-  width: 200px;
+  max-width: 262px;
 }
 
 .float-right {
   float: right;
-  margin: 0 0 10px 20px;
-  width: 200px;
+  max-width: 262px;
+}
+
+.clear {
+  clear: both;
+  background: #eee;
+  padding: 10px;
 }
 
 /* ===== Back-to-top (no reserva espacio) ===== */
